@@ -29,7 +29,7 @@ docs <- tm_map(docs, stripWhitespace)
 docs <- tm_map(docs, removeNumbers)
 length(docs)
 
-#Split text
+# Split text
 terms <- unlist(strsplit(text, ' '))
 fit <- markovchainFit(data = terms) 
 plot(fit$estimate) 
