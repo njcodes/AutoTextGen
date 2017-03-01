@@ -1,10 +1,11 @@
 **Markov cahain Text generation code**
 #Packages
+'''
 install.packages("markovchain")
 install.packages("tm")
 library(markovchain) 
 library(tm)
-
+'''
 #Import Text
 text <- readLines(file.choose())
 filePath <-"C:\\Users\\JosephN2\\Desktop\\That.txt"
